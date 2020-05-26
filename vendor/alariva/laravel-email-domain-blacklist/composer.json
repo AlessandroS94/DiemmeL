@@ -1,0 +1,44 @@
+{
+    "name": "alariva/laravel-email-domain-blacklist",
+    "description": "A Laravel package for adding email domain blacklist validation rule",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariel Vallese",
+            "email": "alariva@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "laravel/framework": "~5.8 || ~6.0",
+        "illuminate/support": "~5.8 || ~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5 || ~8.0",
+        "orchestra/testbench": "~3.9 ||~4.0",
+        "mockery/mockery": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alariva\\EmailDomainBlacklist\\": "src/Alariva/EmailDomainBlacklist"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/ValidatorTest.php"
+        ],
+        "psr-4": {
+            "Alariva\\EmailDomainBlacklist\\": "src/Alariva/EmailDomainBlacklist",
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alariva\\EmailDomainBlacklist\\EmailDomainBlacklistServiceProvider"
+            ]
+        }
+    }
+}
