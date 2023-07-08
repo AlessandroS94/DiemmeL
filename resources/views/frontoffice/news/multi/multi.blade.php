@@ -42,9 +42,9 @@
             </div>
         </article>
         @endif
-        <nav class="blog-pagination justify-content-center d-flex">
-            {{$collection->links()}}
-        </nav> 
+            <nav class="blog-pagination justify-content-center d-flex">
+                @include('/frontoffice/news/multi/pagination', ['collection' => $collection])
+            </nav>
     </div>
 </div>
 @endsection
