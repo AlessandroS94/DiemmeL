@@ -58,7 +58,7 @@
                                             </form>
                                             <hr>
                                             <form method="GET" action="{{route('updateQuotation')}}">
-                                                
+
                                                 <input name="id" hidden value="{{$item->id}}">
                                                 <button type="submit" class="btn btn-secondary">
                                                     <i class="fas fa-edit"></i>
@@ -73,9 +73,7 @@
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer clearfix">
-                            <ul class="pagination pagination-sm m-0 float-right">
-                                {{$collection->links()}}
-                            </ul>
+                            @include('/backoffice/utils/pagination', ['collection' => $collection])
                         </div>
                     </div>
                     <!-- /.card -->

@@ -55,7 +55,7 @@ class ProductController extends Controller
     public function manage(Product $product)
     {
         $collection = $product->orderBy('created_at', 'desc')->paginate(10);
-        $this->authorize($collection);
+        $this->authorize('manage',$product);
         return view('backoffice.productDashboard.manage', ['collection' => $collection]);
     }
 
@@ -69,9 +69,9 @@ class ProductController extends Controller
     {
         $request->validate($this->rules_delete);
         $product = $product->find((int)$request->id);
-        $this->authorize($product);
+        $this->authorize('destroy',$product);
         if(isset($product->id))
-            $product->delete(); 
+            $product->delete();
         return redirect(route('manageProduct'));
 
     }
@@ -80,13 +80,14 @@ class ProductController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
+     * * @param  \App\models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request,  Product $product)
     {
         $this->validate($request, $this->rules);
         $product = new Product;
-        $this->authorize($product);
+        $this->authorize('store',$product);
         $product->user_id = Auth::user()->id;
         $product->name = $request->title;
         $product->description = ($request->description);
@@ -129,7 +130,7 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        $this->authorize($product);
+        $this->authorize('update',$product);
         $request->validate($this->rules_update, $this->errorMessages_update);
         $product = $product->find((int)$request->id);
         $product->exists=true;

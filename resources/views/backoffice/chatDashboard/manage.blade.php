@@ -66,15 +66,13 @@
                                         </td>
                                     </tr>
                                     @endforeach
-                                    
+
                                 </tbody>
                             </table>
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer clearfix">
-                            <ul class="pagination pagination-sm m-0 float-right">
-                                {{$collection->links()}}
-                            </ul>
+                            @include('/backoffice/utils/pagination', ['collection' => $collection])
                         </div>
                         @endif
                     </div>
