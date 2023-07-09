@@ -2,7 +2,7 @@
   <!-- Brand Logo -->
   <a href="{{route('index')}}" class="brand-link">
     <img
-      src="{{ URL::asset('backoffice/plugins/select2/css/select2.min.css') }}"
+      src="{{ URL::asset('backoffice/img/logo.png') }}"
       alt="Diemmelogo" class="brand-image img-circle elevation-3" style="opacity: .8">
     <span class="brand-text font-weight-light">Dashboard Diemme</span>
   </a>
