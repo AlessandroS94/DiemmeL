@@ -1,2 +1,11 @@
 /vendor/
-/vendor/
+/.env
+/.idea/.gitignore
+/.idea/DiemmeL.iml
+/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd
+/.idea/commandlinetools/Laravel_29_06_23__11_21.xml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/php-test-framework.xml
+/.idea/phpunit.xml
+/.idea/vcs.xml
