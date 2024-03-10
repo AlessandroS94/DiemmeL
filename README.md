@@ -23,5 +23,5 @@ Per installare e configurare il sistema, seguire i seguenti passaggi:
 1. Clonare il repository
 2. Installare le dipendenze con Composer
 3. Configurare il file `.env` con i dettagli del database
-4. Eseguire le migrazioni e i seeders per popolare il database
+4. Eseguire le migrazioni e i seeders per popolare il database ( adesso non disponibile )
 
