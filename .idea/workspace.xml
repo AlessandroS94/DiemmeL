@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update leftbar.blade.php">
-      <change afterPath="$PROJECT_DIR$/resources/views/backoffice/utils/pagination.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/src/Alariva/EmailDomainBlacklist/BlacklistUpdateEmailDomainsCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/alariva/laravel-email-domain-blacklist/src/Alariva/EmailDomainBlacklist/BlacklistUpdateEmailDomainsCommand.php" afterDir="false" />
@@ -7051,7 +7047,7 @@
       <workItem from="1716543018871" duration="124000" />
       <workItem from="1716543192197" duration="997000" />
       <workItem from="1716544518482" duration="274000" />
-      <workItem from="1716544973754" duration="827000" />
+      <workItem from="1716544973754" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Update navbar page">
       <created>1688819880814</created>
