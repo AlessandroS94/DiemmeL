@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update leftbar.blade.php">
-      <change beforePath="$PROJECT_DIR$/.idea/DiemmeL2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DiemmeL2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="513d814f-ff03-476e-af47-5afb420200d0" name="Changes nor" comment="" />
     <list id="46f1a4ed-5571-4738-be4b-4a6ce47a87fc" name="commit" comment="" />
@@ -163,6 +161,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2Rrx9zoxZ1nYZeBDoH9CmXLM7kW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -187,9 +188,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/backoffice/img" />
       <recent name="$PROJECT_DIR$/resources/views/backoffice/utils" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -232,12 +233,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Built-in Web Server.Unnamed" />
-      <item itemvalue="PHP Script.Unnamed" />
-      <item itemvalue="PHP Script.Artisan serve" />
-      <item itemvalue="PHP Script.artisan" />
       <item itemvalue="PHPUnit.Main" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item itemvalue="PHP Script.Artisan serve" />
+      <item itemvalue="PHP Script.Unnamed" />
+      <item itemvalue="PHP Script.artisan" />
     </list>
   </component>
   <component name="SharedIndexes">
