@@ -233,12 +233,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Built-in Web Server.Unnamed" />
-      <item itemvalue="PHP Script.Unnamed" />
-      <item itemvalue="PHP Script.Artisan serve" />
-      <item itemvalue="PHP Script.artisan" />
       <item itemvalue="PHPUnit.Main" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item itemvalue="PHP Script.Artisan serve" />
+      <item itemvalue="PHP Script.Unnamed" />
+      <item itemvalue="PHP Script.artisan" />
     </list>
   </component>
   <component name="SharedIndexes">
