@@ -2,13 +2,14 @@
   <!-- Brand Logo -->
   <a href="{{route('index')}}" class="brand-link">
     <img
-      src="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/73078926_105557677537493_396295404041273344_n.png?_nc_cat=106&_nc_sid=85a577&_nc_ohc=wittZopPRbMAX_7FcDg&_nc_ht=scontent-mxp1-1.xx&oh=1aab1c0ade3cafb1ec5e17132745b19c&oe=5EDAAAB4"
+      src="{{ URL::asset('backoffice/img/logo.png') }}"
       alt="Diemmelogo" class="brand-image img-circle elevation-3" style="opacity: .8">
     <span class="brand-text font-weight-light">Dashboard Diemme</span>
   </a>
 
   <!-- Sidebar -->
   <div class="sidebar">
+
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="info">
@@ -260,7 +261,7 @@
           </ul>
         </li>
         @endif
-        
+
         @if ($item['id'] == 10 ?? '')
         <li class="nav-item has-treeview">
         <a href="{{route('statusOrder')}}" class="nav-link">

@@ -43,7 +43,7 @@ class NewsController extends Controller
     public function index(Index $index)
     {
         $collection = $index->orderBy('created_at', 'desc')->paginate(4);
-        return view('frontoffice.news.multi.multi', ['collection' => $collection]);
+        return view('frontoffice.news.multi.multi', compact('collection'));
     }
 
     /**
@@ -71,11 +71,11 @@ class NewsController extends Controller
         $request->validate($this->rules_delete);
         $index = $index->find((int)$request->id);
         if(isset($index->id))
-            $index->delete(); 
+            $index->delete();
         return redirect(route('manageNews'));
 
     }
-    
+
     /**
      * Display the specified resource.
      * @param  \Illuminate\Http\Request  $request
