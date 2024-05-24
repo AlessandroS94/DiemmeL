@@ -9,3 +9,7 @@
 /.idea/php-test-framework.xml
 /.idea/phpunit.xml
 /.idea/vcs.xml
+/vendor/
+/vendor/
+
+.DS_Store
