@@ -51,7 +51,7 @@
                                         <td>
                                         @if($item->status == "send")<span class="badge bg-success">Realizzato e spedito</span> @endif
                                         @if($item->status == "make")<span class="badge bg-danger"> In fase di realizzazione </span>@endif
-                                            
+
                                         </td>
                                     </tr>
                                     @endforeach
@@ -61,9 +61,7 @@
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer clearfix">
-                            <ul class="pagination pagination-sm m-0 float-right">
-                                {{$collection->links()}}
-                            </ul>
+                            @include('/backoffice/utils/pagination', ['collection' => $collection])
                         </div>
                     </div>
                     <!-- /.card -->
