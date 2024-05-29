@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTechnologyShowcase extends Migration
+class CreateTechnologyShowcaseTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,16 +14,8 @@ class CreateTechnologyShowcase extends Migration
     public function up()
     {
         Schema::create('technology_showcase', function (Blueprint $table) {
-            $table->Increments('id');
-            $table->string('name',20);
-            $table->string('name_file',40);
-            $table->string('path',60);
-            $table->text('description');
-            $table->integer('user_id')->unsigned();;
-            $table->foreign('user_id')->on('users')->references('id')
-            ->onDelete('cascade')->onUpdate('cascade');;
+            $table->id();
             $table->timestamps();
-            $table->softDeletes();
         });
     }
 

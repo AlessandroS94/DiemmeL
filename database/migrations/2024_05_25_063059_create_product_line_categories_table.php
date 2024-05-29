@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFileLayoutsTable extends Migration
+class CreateProductLineCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,8 @@ class CreateFileLayoutsTable extends Migration
      */
     public function up()
     {
-        Schema::create('file_layouts', function (Blueprint $table) {
-            $table->Increments('id');
-            $table->string('path');
+        Schema::create('product_line_categories', function (Blueprint $table) {
+            $table->id();
             $table->timestamps();
         });
     }
@@ -27,6 +26,6 @@ class CreateFileLayoutsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('file_layouts');
+        Schema::dropIfExists('product_line_categories');
     }
 }

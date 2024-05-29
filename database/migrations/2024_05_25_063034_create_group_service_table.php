@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateServiceGroup extends Migration
+class CreateGroupServiceTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,15 +14,8 @@ class CreateServiceGroup extends Migration
     public function up()
     {
         Schema::create('group_service', function (Blueprint $table) {
-            
-            $table->integer('service_id')->unsigned()->index();
-            $table->foreign('service_id')->on('service')->references('id')
-            ->onUpdate('cascade');
-            $table->integer('group_id')->unsigned()->index();
-            $table->foreign('group_id')->on('group')->references('id')
-            ->onUpdate('cascade');
+            $table->id();
             $table->timestamps();
-            $table->softDeletes();
         });
     }
 
