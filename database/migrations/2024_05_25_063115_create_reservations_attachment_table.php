@@ -15,17 +15,17 @@ class CreateReservationsAttachmentTable extends Migration
     {
         Schema::create('reservations_attachment', function (Blueprint $table) {
             $table->id();
+            $table->string('path');
+            $table->unsignedBigInteger('reservation');
             $table->timestamps();
+
+            $table->foreign('reservation')->references('id')->on('reservations')->onUpdate('cascade');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('reservations_attachment');
     }
+
 }

@@ -15,15 +15,14 @@ class CreateProductLineFilesTable extends Migration
     {
         Schema::create('product_line_files', function (Blueprint $table) {
             $table->id();
+            $table->string('path');
+            $table->unsignedBigInteger('product_line_id');
             $table->timestamps();
+
+            $table->foreign('product_line_id')->references('id')->on('product_lines')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('product_line_files');

@@ -15,17 +15,21 @@ class CreateReservationsTable extends Migration
     {
         Schema::create('reservations', function (Blueprint $table) {
             $table->id();
+            $table->string('title')->nullable();
+            $table->string('description')->nullable();
+            $table->string('status')->nullable();
+            $table->unsignedBigInteger('id_user');
+            $table->unsignedBigInteger('id_product_line');
             $table->timestamps();
+
+            $table->foreign('id_user')->references('id')->on('users')->onUpdate('cascade');
+            $table->foreign('id_product_line')->references('id')->on('product_lines')->onUpdate('cascade');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('reservations');
     }
+
 }
