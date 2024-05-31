@@ -15,17 +15,14 @@ class CreateMigrationsTable extends Migration
     {
         Schema::create('migrations', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('migration');
+            $table->integer('batch');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('migrations');
     }
+
 }

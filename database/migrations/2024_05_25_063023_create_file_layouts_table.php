@@ -25,4 +25,5 @@ class CreateFileLayoutsTable extends Migration
         Schema::dropIfExists('file_layouts');
     }
 
+
 }

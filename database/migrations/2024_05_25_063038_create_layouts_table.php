@@ -15,17 +15,18 @@ class CreateLayoutsTable extends Migration
     {
         Schema::create('layouts', function (Blueprint $table) {
             $table->id();
+            $table->string('final');
+            $table->string('name');
+            $table->string('status')->nullable();
+            $table->text('description');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('layouts');
     }
+
 }

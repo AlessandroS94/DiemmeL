@@ -14,18 +14,19 @@ class CreateGroupServiceTable extends Migration
     public function up()
     {
         Schema::create('group_service', function (Blueprint $table) {
-            $table->id();
+            $table->unsignedBigInteger('service_id');
+            $table->unsignedBigInteger('group_id');
             $table->timestamps();
+            $table->softDeletes();
+
+            $table->foreign('service_id')->references('id')->on('service')->onUpdate('cascade');
+            $table->foreign('group_id')->references('id')->on('groups')->onUpdate('cascade');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('group_service');
     }
+
 }

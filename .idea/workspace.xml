@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update leftbar.blade.php">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063023_create_file_layouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063023_create_file_layouts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063027_create_file_layout_layout_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063027_create_file_layout_layout_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063030_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063030_create_groups_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063034_create_group_service_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063034_create_group_service_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063038_create_layouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063038_create_layouts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063041_create_layout_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063041_create_layout_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063045_create_messages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063045_create_messages_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063048_create_migrations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063048_create_migrations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063052_create_news_showcase_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063052_create_news_showcase_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063055_create_product_lines_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063055_create_product_lines_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063059_create_product_line_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063059_create_product_line_categories_table.php" afterDir="false" />
     </list>
     <list id="513d814f-ff03-476e-af47-5afb420200d0" name="Changes nor" comment="" />
     <list id="46f1a4ed-5571-4738-be4b-4a6ce47a87fc" name="commit" comment="" />
@@ -184,6 +195,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -233,13 +249,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.Main" />
-      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHP Built-in Web Server.Unnamed" />
       <item itemvalue="PHP Script.Artisan serve" />
       <item itemvalue="PHP Script.Unnamed" />
       <item itemvalue="PHP Script.artisan" />
+      <item itemvalue="PHPUnit.Main" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.artisan" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -278,6 +299,10 @@
       <workItem from="1716544518482" duration="274000" />
       <workItem from="1716544973754" duration="1153000" />
       <workItem from="1716547210729" duration="192000" />
+      <workItem from="1716548877636" duration="496000" />
+      <workItem from="1716618066325" duration="484000" />
+      <workItem from="1716923631749" duration="426000" />
+      <workItem from="1716924125841" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="Update navbar page">
       <created>1688819880814</created>
@@ -328,7 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689180276133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update migration">
+      <option name="closed" value="true" />
+      <created>1716923833377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716923833377</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update migration">
+      <option name="closed" value="true" />
+      <created>1716959296891</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716959296891</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +380,8 @@
     <MESSAGE value="Update backoffice view and fix security" />
     <MESSAGE value="Update config VSC" />
     <MESSAGE value="Update leftbar.blade.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update leftbar.blade.php" />
+    <MESSAGE value="Update migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update migration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

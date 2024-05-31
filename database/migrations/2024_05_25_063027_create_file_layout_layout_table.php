@@ -14,18 +14,18 @@ class CreateFileLayoutLayoutTable extends Migration
     public function up()
     {
         Schema::create('file_layout_layout', function (Blueprint $table) {
-            $table->id();
+            $table->unsignedBigInteger('file_layout_id');
+            $table->unsignedBigInteger('layout_id');
             $table->timestamps();
+
+            $table->foreign('file_layout_id')->references('id')->on('file_layouts')->onUpdate('cascade');
+            $table->foreign('layout_id')->references('id')->on('layout')->onUpdate('cascade');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('file_layout_layout');
     }
+
 }
