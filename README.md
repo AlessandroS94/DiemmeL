@@ -13,7 +13,7 @@ Questo è un sistema gestionale, sviluppato utilizzando il framework PHP Laravel
 - Attualmente non permette configurazione del template del sito e configurazione dei loghi.
 
 ## Tecnologie Utilizzate
-- Laravel 6
+- Laravel 8
 - MySQL
 - Bootstrap 4
 - jQuery
