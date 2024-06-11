@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update migration">
+    <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update seeder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063023_create_file_layouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063023_create_file_layouts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063027_create_file_layout_layout_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063027_create_file_layout_layout_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063030_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063030_create_groups_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063034_create_group_service_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063034_create_group_service_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063038_create_layouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063038_create_layouts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063041_create_layout_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063041_create_layout_user_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063045_create_messages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063045_create_messages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063048_create_migrations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063048_create_migrations_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063052_create_news_showcase_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063052_create_news_showcase_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063055_create_product_lines_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063055_create_product_lines_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_25_063059_create_product_line_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_05_25_063059_create_product_line_categories_table.php" afterDir="false" />
     </list>
     <list id="513d814f-ff03-476e-af47-5afb420200d0" name="Changes nor" comment="" />
     <list id="46f1a4ed-5571-4738-be4b-4a6ce47a87fc" name="commit" comment="" />
@@ -35,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="to_laravel_8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +37,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/AlessandroS94/DiemmeL.git&quot;,
     &quot;accountId&quot;: &quot;18f643a1-7292-428c-b82e-35aca2cfd5ac&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;AlessandroS94&quot;,
+    &quot;repository&quot;: &quot;DiemmeL&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -249,12 +247,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="PHPUnit.Main" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHP Built-in Web Server.Unnamed" />
       <item itemvalue="PHP Script.Artisan serve" />
       <item itemvalue="PHP Script.Unnamed" />
       <item itemvalue="PHP Script.artisan" />
-      <item itemvalue="PHPUnit.Main" />
-      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -302,7 +300,8 @@
       <workItem from="1716548877636" duration="496000" />
       <workItem from="1716618066325" duration="484000" />
       <workItem from="1716923631749" duration="426000" />
-      <workItem from="1716924125841" duration="1714000" />
+      <workItem from="1716924125841" duration="2368000" />
+      <workItem from="1717161401567" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Update navbar page">
       <created>1688819880814</created>
@@ -369,11 +368,38 @@
       <option name="project" value="LOCAL" />
       <updated>1716959296891</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update migration">
+      <option name="closed" value="true" />
+      <created>1717149660102</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717149660102</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update seeder">
+      <option name="closed" value="true" />
+      <created>1717161369971</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717161369971</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update navbar page" />
@@ -381,7 +407,8 @@
     <MESSAGE value="Update config VSC" />
     <MESSAGE value="Update leftbar.blade.php" />
     <MESSAGE value="Update migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update migration" />
+    <MESSAGE value="Update seeder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update seeder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
