@@ -6,13 +6,13 @@ use Illuminate\Database\Seeder;
 
 class FileLayoutLayoutTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        //
+        DB::table('file_layout_layout')->insert([
+            'file_layout_id' => 1,
+            'layout_id' => 1,
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
     }
 }

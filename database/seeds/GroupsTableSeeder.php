@@ -6,13 +6,12 @@ use Illuminate\Database\Seeder;
 
 class GroupsTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        //
+        DB::table('groups')->insert([
+            'name' => 'Admin',
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
     }
 }

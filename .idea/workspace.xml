@@ -6,6 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="5d31594a-0965-4b6d-b9e0-67d281f41ac5" name="Changes" comment="Update seeder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ChatsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ChatsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ContactShowcaseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ContactShowcaseTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/FailedJobsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/FailedJobsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/FileLayoutLayoutTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/FileLayoutLayoutTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/FileLayoutsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/FileLayoutsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GroupServiceTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupServiceTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GroupsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/LayoutUserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LayoutUserTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/LayoutsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LayoutsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/MessagesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/MessagesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/NewsShowcaseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/NewsShowcaseTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PasswordResetsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PasswordResetsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductLineCategoriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductLineCategoriesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductLineFilesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductLineFilesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductLinesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductLinesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductShowcaseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductShowcaseTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/QuotationShowcaseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/QuotationShowcaseTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ReservationsAttachmentTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ReservationsAttachmentTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ServicesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ServicesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TechnologyShowcaseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TechnologyShowcaseTableSeeder.php" afterDir="false" />
     </list>
     <list id="513d814f-ff03-476e-af47-5afb420200d0" name="Changes nor" comment="" />
     <list id="46f1a4ed-5571-4738-be4b-4a6ce47a87fc" name="commit" comment="" />
@@ -247,12 +268,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.Main" />
-      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHP Built-in Web Server.Unnamed" />
       <item itemvalue="PHP Script.Artisan serve" />
       <item itemvalue="PHP Script.Unnamed" />
       <item itemvalue="PHP Script.artisan" />
+      <item itemvalue="PHPUnit.Main" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -302,6 +323,7 @@
       <workItem from="1716923631749" duration="426000" />
       <workItem from="1716924125841" duration="2368000" />
       <workItem from="1717161401567" duration="41000" />
+      <workItem from="1718225739488" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="Update navbar page">
       <created>1688819880814</created>

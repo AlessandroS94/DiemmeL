@@ -8,26 +8,32 @@ use Carbon\Carbon;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
     public function run()
     {
-         
         $this->call([
-            service_table_Seeder::class,
-            group_table_Seeder::class,
-            service_group_table_Seeder::class,
-            users_table_Seeder::class,
-            layout_table_Seeder::class,
-            product_showcase_table_Seeder::class,
-            tecnology_showcase_table_Seeder::class,
-            quotation_showcase_table_Seeder::class,
-            contact_showcase_table_Seeder::class,
-            news_showcase_table_Seeder::class,
-            
+            ChatsTableSeeder::class,
+            ContactShowcaseTableSeeder::class,
+            FailedJobsTableSeeder::class,
+            FileLayoutsTableSeeder::class,
+            FileLayoutLayoutTableSeeder::class,
+            GroupsTableSeeder::class,
+            GroupServiceTableSeeder::class,
+            LayoutsTableSeeder::class,
+            LayoutUserTableSeeder::class,
+            MessagesTableSeeder::class,
+            MigrationsTableSeeder::class,
+            NewsShowcaseTableSeeder::class,
+            PasswordResetsTableSeeder::class,
+            ProductLinesTableSeeder::class,
+            ProductLineCategoriesTableSeeder::class,
+            ProductLineFilesTableSeeder::class,
+            ProductShowcaseTableSeeder::class,
+            QuotationShowcaseTableSeeder::class,
+            ReservationsTableSeeder::class,
+            ReservationsAttachmentTableSeeder::class,
+            ServicesTableSeeder::class,
+            TechnologyShowcaseTableSeeder::class,
+            UsersTableSeeder::class,
         ]);
     }
 }

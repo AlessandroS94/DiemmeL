@@ -6,13 +6,13 @@ use Illuminate\Database\Seeder;
 
 class ProductLineFilesTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        //
+        DB::table('product_line_files')->insert([
+            'path' => 'path/to/file',
+            'product_line_id' => 1,
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
     }
 }
